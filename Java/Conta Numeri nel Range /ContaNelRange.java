@@ -25,7 +25,7 @@ public class ContaNelRange {
             System.out.print("Inserisci il valore numero " + (i + 1) + ": ");
             int value = input.nextInt();
 
-            if (value >= h && value <= k) {
+        if ((value >= h && value <= k) || (value <= h && value >= k)) {
                 counter++;
             }
         }
